@@ -1,4 +1,14 @@
 import random
+"""Problem #2
+Two player dice game.
+Each player will roll the die (numbers from 1 to 6)
+Points are added to each roll.
+1 - 1 pt
+2 - 5 pts
+3 - 15 pts
+4 - (-15) pts
+5 - (-5) pts
+6 - (-1) pts"""
 
 rows,cols=6,6
 arr = [[0 for i in range(cols)] for j in range(rows)]
